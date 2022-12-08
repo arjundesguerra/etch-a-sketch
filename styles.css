@@ -1,0 +1,23 @@
+#main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border: thick solid black;
+    height: 650px;
+    width: 640px;
+
+}
+
+.innerdiv {
+    height:40px;
+    width:40px;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
